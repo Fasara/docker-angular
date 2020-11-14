@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "docker-angular"
+    }
+  },
+  "defaultProject": "docker-angular",
+  "cli": {
+    "analytics": false
+  }
 }
