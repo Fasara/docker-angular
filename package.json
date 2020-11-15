@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "serve": "docker run --rm -it -d -p 8080:80 -v $(pwd)/dist/docker-angular docker-angular",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
