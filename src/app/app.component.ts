@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { Dishes } from '../card-db';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'docker-angular';
+
+  mainCourse = Dishes[0];
+
+  starter = Dishes[3];
+
+
 }
+
