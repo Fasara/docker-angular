@@ -5,7 +5,6 @@ export const Dishes: any = [
         description: "Carbonara pasta",
         imgUrl: "https://unsplash.com/photos/P6tfi3IoqNw",
         ingredients: "guanciale, eggs, pasta, black pepper, parmesan",
-        cookingTime: "15 min.",
         category: "main course"
     },
 
@@ -14,7 +13,6 @@ export const Dishes: any = [
         description: "Lasagna",
         imgUrl: "https://unsplash.com/photos/P6tfi3IoqNw",
         ingredients: "Bolognese sauce, besciamella, cheese, lasagna sheets",
-        cookingTime: "40 min.",
         category: "main course"
     },
 
@@ -23,7 +21,6 @@ export const Dishes: any = [
         description: "Roasted chicken with potatoes",
         imgUrl: "https://unsplash.com/photos/P6tfi3IoqNw",
         ingredients: "Chicken, potatoes, rosemary",
-        cookingTime: "35 min.",
         category: "main course"
     },
 
@@ -32,7 +29,6 @@ export const Dishes: any = [
         description: "Bruschetta",
         imgUrl: "https://unsplash.com/photos/P6tfi3IoqNw",
         ingredients: "bread, fresh tomatoes",
-        cookingTime: "10 min.",
         category: "starter"
     },
 
@@ -41,7 +37,6 @@ export const Dishes: any = [
         description: "Tiramisú",
         imgUrl: "https://unsplash.com/photos/P6tfi3IoqNw",
         ingredients: "Mascarpone cheese, biscuits, cacao",
-        cookingTime: "10 min.",
         category: "dessert"
     }
 

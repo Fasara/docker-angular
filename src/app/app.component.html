@@ -1,15 +1,8 @@
 <h1>Let's learn Angular, again!</h1>
 
+<div class="grid-cards">
+	<app-card (click)="onRecipeViewed" [recipe]="mainCourse"></app-card>
+	<app-card [recipe]="starter"></app-card>
+	<app-card [recipe]="dessert"></app-card>
 
-<h3>{{ mainCourse.description }}</h3>
-
-<h3>{{ starter.description }}</h3>
-
-<!-- <div class="grid-cards">
-	<app-card></app-card>
-	<app-card></app-card>
-	<app-card></app-card>
-	<app-card></app-card>
-
-
-</div> -->
+</div>

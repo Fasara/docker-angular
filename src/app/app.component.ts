@@ -12,6 +12,11 @@ export class AppComponent {
 
   starter = Dishes[3];
 
+  dessert = Dishes[4];
+
+  onRecipeViewed(){
+    console.log("recipe is clicked");
+  }
 
 }
 

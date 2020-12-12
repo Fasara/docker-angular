@@ -1,1 +1,13 @@
-<p>card works!</p>
+
+<div class="recipe-card">
+    <div class="recipe-title">
+        {{ recipe.description }}
+    </div>
+    <img [src]="recipe.imgUrl" alt="Image recipe">
+    <div class="recipe-body">
+        {{ recipe.ingredients }}
+    </div>
+
+    <button (click)="onRecipeViewed()">View recipe</button>
+
+</div>
