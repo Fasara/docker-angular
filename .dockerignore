@@ -5,3 +5,7 @@ node_modules
 .editorconfig
 /e2e
 
+Dockerfile*
+README.md
+LICENSE
+.vscode
